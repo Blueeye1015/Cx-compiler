@@ -2,7 +2,7 @@
 
 #### A compiler of Cx language based on Lex and Yacc
 
-1)	\\<program\\> ∷= \\<block\\>      
+1)	\<program\> ∷= \<block\>      
 2)	\<block\> ∷= {\<decls\> \<stmts\>}                
 3)	\<decls\> ∷=\<decls\> \<decl\> | ε                
 4)	\<decl\> ∷= int \<aid\>; | bool \<bid\>;                    
