@@ -1,0 +1,34 @@
+{
+	int a;
+	int b;
+	bool c;
+	bool d;
+	int e;
+	a=4;
+	b=8;
+	c=true;
+	d=false;
+	e=10;
+	if(c||d)
+	{
+		a=16;
+		write a+b;
+		if(a>10)
+		{
+			int b;
+			b=20;
+			write a+b;
+			while(b>19)
+			{
+				write b;
+				b=b-1;
+			};
+		}
+		else
+		{
+			a=4;
+		};
+		
+	 } ;
+	 write a+b;
+} 

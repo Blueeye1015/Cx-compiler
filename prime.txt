@@ -1,0 +1,26 @@
+{
+	int a;
+	a = 2;
+	while(a < 101){
+		int i;
+		int f;
+		int n;
+		n = 4;
+		f = 0;
+		i = 2;
+		while(n <= a){
+			int b;
+			int m;
+			n = i * i;
+			b = a / i;
+			m = b * i;
+			if(m == a){
+				f = 1;
+			};
+			i = i + 1;
+		};
+		if(f == 0)
+			write a;;
+		a = a + 1;
+	};
+}

@@ -1,0 +1,17 @@
+{
+    int a;
+	int b;
+	while(true)
+	{
+		read a;
+		read b;
+		while(b != 0)
+		{
+			int c;
+			c = a%b;
+			a = b;
+			b = c;
+		};
+		write a;
+	};		
+}

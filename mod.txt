@@ -1,0 +1,11 @@
+{
+	bool a;
+	bool b;
+	int c;
+	c = 1;
+	a = true;
+	b = false;
+	if(a^b){
+		write c;
+	};
+}

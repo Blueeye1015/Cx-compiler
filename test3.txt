@@ -1,0 +1,24 @@
+/*100,99,98,97*/
+{
+	bool a;
+	bool b;
+	bool c;
+	int d;
+	int e;
+	a=true;
+	b=false;
+	c=true;
+	d=4;
+	e=7;
+	if(e>d&&a&&!b)
+	{
+		int e;
+		e=100;
+		while(b||c&&d>0)
+		{
+			write e;
+			e=e-1;
+			d=d-1;
+		};
+	};
+}

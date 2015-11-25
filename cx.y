@@ -39,7 +39,7 @@ block:
 		if(lev>LEVMAX)
 			error(32);
 	}
-	LC 
+	LC
 	decls
 	{ // pl0 declarelist
 		code[table[levelReg[lev].tx0].adr].a=cx;
@@ -47,12 +47,12 @@ block:
 		table[levelReg[lev].tx0].size=dx;
 		levelReg[lev].cx0=cx;
 		gen(ini,0,dx);
-	}	
+	}
 	stmts
 	{
 		gen(opr,0,0);
 		printf("\n");
-	}	
+	}
 	RC
 	;
 
