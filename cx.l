@@ -37,7 +37,7 @@
 <INITIAL>"&&"           		 {return LOG_and;}
 <INITIAL>"||"           		 {return LOG_or;}
 <INITIAL>"^"					 {return LOG_xor;}
-<INITIAL>"="            		 {return ASSIGN;}
+<INITIAL>":="            		 {return ASSIGN;}
 <INITIAL>"=="           		 {return EQ;}
 <INITIAL>"!="           		 {return NE;}
 <INITIAL>">"            		 {return GT;}
